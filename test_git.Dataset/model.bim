@@ -1,0 +1,595 @@
+{
+  "compatibilityLevel": 1550,
+  "model": {
+    "annotations": [
+      {
+        "name": "PBI_QueryOrder",
+        "value": "[\"Group Job Efficiency\"]"
+      },
+      {
+        "name": "__PBI_TimeIntelligenceEnabled",
+        "value": "1"
+      },
+      {
+        "name": "PBIDesktopVersion",
+        "value": "2.124.2028.0 (23.12)"
+      },
+      {
+        "name": "PBI_ProTooling",
+        "value": "[\"DevMode\"]"
+      }
+    ],
+    "culture": "en-US",
+    "cultures": [
+      {
+        "name": "en-US",
+        "linguisticMetadata": {
+          "content": {
+            "DynamicImprovement": "HighConfidence",
+            "Language": "en-US",
+            "Version": "1.0.0"
+          },
+          "contentType": "json"
+        }
+      }
+    ],
+    "dataAccessOptions": {
+      "legacyRedirects": true,
+      "returnErrorValuesAsNull": true
+    },
+    "defaultPowerBIDataSourceVersion": "powerBI_V3",
+    "sourceQueryCulture": "en-IN",
+    "tables": [
+      {
+        "name": "Group Job Efficiency",
+        "annotations": [
+          {
+            "name": "PBI_NavigationStepName",
+            "value": "Navigation"
+          },
+          {
+            "name": "PBI_ResultType",
+            "value": "Table"
+          }
+        ],
+        "columns": [
+          {
+            "name": "Job ID",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "243e7059-2213-4ede-a48a-07b21c04846b",
+            "sourceColumn": "Job ID",
+            "summarizeBy": "count"
+          },
+          {
+            "name": "Total Days",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "2a344ae4-5542-415b-9c64-858d8879a264",
+            "sourceColumn": "Total Days",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Sales Person Name",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "f9c3d574-81ad-4f3c-9d50-2475a351af47",
+            "sourceColumn": "Sales Person Name",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Job Type",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "8c211f1a-b3e4-49fe-afae-dcecb384e215",
+            "sourceColumn": "Job Type",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Distributor Name",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "d69ac054-92f3-4a4b-9992-e57df0a9bca8",
+            "sourceColumn": "Distributor Name",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Premise Type",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "83597570-a258-4a11-a80a-755d43bde95c",
+            "sourceColumn": "Premise Type",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Created",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "e5dadbd3-b7c7-4bbb-b0e3-dc0f088ef0be",
+            "sourceColumn": "Created",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Pending Manager Approval",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "2fd8a2bb-5c0d-43dd-b832-17d3cbe20a05",
+            "sourceColumn": "Pending Manager Approval",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Manager Approved",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "0336d139-a132-4107-8ebb-b6ef9bdab386",
+            "sourceColumn": "Manager Approved",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "In Design",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "10422b99-9af9-40c0-979f-b991e1eb642b",
+            "sourceColumn": "In Design",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Pending Design Approval",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "2d32455c-a507-4a92-9551-bc369fdd5c67",
+            "sourceColumn": "Pending Design Approval",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Approved for Production",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "6e4c9026-1677-476e-adc5-c7052a8a1dba",
+            "sourceColumn": "Approved for Production",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Return to Design",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "f89ad1c3-ce5d-4ce4-8ec7-ed9c03913dd9",
+            "sourceColumn": "Return to Design",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Release for Production",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "2b5fe665-a6ab-49b9-9c31-45da4b01b0db",
+            "sourceColumn": "Release for Production",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Closed",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "5d347d55-2e55-49b9-a5a5-8c7dbbbe97d2",
+            "sourceColumn": "Closed",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Manager Rejected",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "b6aa733e-74c0-4949-96c6-7438814db2d6",
+            "sourceColumn": "Manager Rejected",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Waiting for Information",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "27fe9126-bb57-43d1-85ea-8cb4fcc85371",
+            "sourceColumn": "Waiting for Information",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Waiting for Quote",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "f179c64a-75c4-4b69-ad14-e069e9fc9b4b",
+            "sourceColumn": "Waiting for Quote",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Quoted",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "94e29a48-8ce6-4ee0-ad83-e6be53bb71ab",
+            "sourceColumn": "Quoted",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Ready for Design",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "18a7dcf9-d951-4f9f-8be8-6da525999b95",
+            "sourceColumn": "Ready for Design",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Pre-Production Review",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "4df0d8f3-a576-491e-965f-9201083fd8ec",
+            "sourceColumn": "Pre-Production Review",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Total",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "b52880ed-adfe-4876-a7b6-98598f338b66",
+            "sourceColumn": "Total",
+            "summarizeBy": "sum"
+          }
+        ],
+        "lineageTag": "b03a9ca5-fdd8-433a-90d6-c4213243c866",
+        "partitions": [
+          {
+            "name": "Group Job Efficiency",
+            "mode": "import",
+            "source": {
+              "expression": [
+                "let",
+                "    Source = Excel.Workbook(File.Contents(\"C:\\Users\\Pawan.Mehra\\Downloads\\Group Job Efficiency (8).xlsx\"), null, true),",
+                "    #\"Group Job Efficiency_Sheet\" = Source{[Item=\"Group Job Efficiency\",Kind=\"Sheet\"]}[Data],",
+                "    #\"Promoted Headers\" = Table.PromoteHeaders(#\"Group Job Efficiency_Sheet\", [PromoteAllScalars=true]),",
+                "    #\"Changed Type\" = Table.TransformColumnTypes(#\"Promoted Headers\",{{\"Group Job Efficiency for Beam Suntory Inc\", type any}, {\"Column2\", type any}, {\"Column3\", type text}, {\"Column4\", type any}, {\"Column5\", type text}, {\"Column6\", type text}, {\"Column7\", type any}, {\"Column8\", type any}, {\"Column9\", type any}, {\"Column10\", type any}, {\"Column11\", type any}, {\"Column12\", type any}, {\"Column13\", type any}, {\"Column14\", type any}, {\"Column15\", type any}, {\"Column16\", type any}, {\"Column17\", type any}, {\"Column18\", type any}, {\"Column19\", type any}, {\"Column20\", type any}, {\"Column21\", type any}, {\"Column22\", type any}}),",
+                "    #\"Promoted Headers1\" = Table.PromoteHeaders(#\"Changed Type\", [PromoteAllScalars=true]),",
+                "    #\"Changed Type1\" = Table.TransformColumnTypes(#\"Promoted Headers1\",{{\"Job ID\", Int64.Type}, {\"Total Days\", Int64.Type}, {\"Sales Person Name\", type text}, {\"Job Type\", type any}, {\"Distributor Name\", type text}, {\"Premise Type\", type text}, {\"Created\", Int64.Type}, {\"Pending Manager Approval\", Int64.Type}, {\"Manager Approved\", Int64.Type}, {\"In Design\", Int64.Type}, {\"Pending Design Approval\", Int64.Type}, {\"Approved for Production\", Int64.Type}, {\"Return to Design\", Int64.Type}, {\"Release for Production\", Int64.Type}, {\"Closed\", Int64.Type}, {\"Manager Rejected\", Int64.Type}, {\"Waiting for Information\", Int64.Type}, {\"Waiting for Quote\", Int64.Type}, {\"Quoted\", Int64.Type}, {\"Ready for Design\", Int64.Type}, {\"Pre-Production Review\", Int64.Type}, {\"Total\", Int64.Type}})",
+                "in",
+                "    #\"Changed Type1\""
+              ],
+              "type": "m"
+            }
+          }
+        ]
+      },
+      {
+        "name": "DateTableTemplate_14714a93-506a-4312-9933-b3bca5afd5a9",
+        "annotations": [
+          {
+            "name": "__PBI_TemplateDateTable",
+            "value": "true"
+          },
+          {
+            "name": "DefaultItem",
+            "value": "DateHierarchy"
+          }
+        ],
+        "columns": [
+          {
+            "name": "Date",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              }
+            ],
+            "dataCategory": "PaddedDateTableDates",
+            "dataType": "dateTime",
+            "formatString": "General Date",
+            "isHidden": true,
+            "isNameInferred": true,
+            "lineageTag": "eb77793a-9c06-46c0-b99c-a45d35ebd4b7",
+            "sourceColumn": "[Date]",
+            "summarizeBy": "none",
+            "type": "calculatedTableColumn"
+          },
+          {
+            "name": "Year",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "Year"
+              }
+            ],
+            "dataCategory": "Years",
+            "dataType": "int64",
+            "expression": "YEAR([Date])",
+            "formatString": "0",
+            "isHidden": true,
+            "lineageTag": "ecb010a1-fdf3-4999-a883-75fb8778493e",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "MonthNo",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "MonthNumber"
+              }
+            ],
+            "dataCategory": "MonthOfYear",
+            "dataType": "int64",
+            "expression": "MONTH([Date])",
+            "formatString": "0",
+            "isHidden": true,
+            "lineageTag": "9827bdc3-5b20-4e12-ae1c-ab3a8322bc37",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "Month",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "Month"
+              }
+            ],
+            "dataCategory": "Months",
+            "dataType": "string",
+            "expression": "FORMAT([Date], \"MMMM\")",
+            "isHidden": true,
+            "lineageTag": "5bd9e995-4234-4c09-820a-1969ef38f28e",
+            "sortByColumn": "MonthNo",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "QuarterNo",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "QuarterNumber"
+              }
+            ],
+            "dataCategory": "QuarterOfYear",
+            "dataType": "int64",
+            "expression": "INT(([MonthNo] + 2) / 3)",
+            "formatString": "0",
+            "isHidden": true,
+            "lineageTag": "4c951568-fe93-4440-bd5d-1a017847de6d",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "Quarter",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "Quarter"
+              }
+            ],
+            "dataCategory": "Quarters",
+            "dataType": "string",
+            "expression": "\"Qtr \" & [QuarterNo]",
+            "isHidden": true,
+            "lineageTag": "e72e762b-f513-4c2b-8c2a-28ac80dbb7a7",
+            "sortByColumn": "QuarterNo",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "Day",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "Day"
+              }
+            ],
+            "dataCategory": "DayOfMonth",
+            "dataType": "int64",
+            "expression": "DAY([Date])",
+            "formatString": "0",
+            "isHidden": true,
+            "lineageTag": "c0c3c4af-6518-4a47-bfb7-4f9442682840",
+            "summarizeBy": "none",
+            "type": "calculated"
+          }
+        ],
+        "hierarchies": [
+          {
+            "name": "Date Hierarchy",
+            "annotations": [
+              {
+                "name": "TemplateId",
+                "value": "DateHierarchy"
+              }
+            ],
+            "levels": [
+              {
+                "name": "Year",
+                "column": "Year",
+                "lineageTag": "516083ad-d439-4812-89ae-7d576b887be2",
+                "ordinal": 0
+              },
+              {
+                "name": "Quarter",
+                "column": "Quarter",
+                "lineageTag": "3adebd8d-f76d-4465-befc-0065b3fd9009",
+                "ordinal": 1
+              },
+              {
+                "name": "Month",
+                "column": "Month",
+                "lineageTag": "dd07d907-c97b-4265-8b91-9596a68b69ac",
+                "ordinal": 2
+              },
+              {
+                "name": "Day",
+                "column": "Day",
+                "lineageTag": "4bacd576-d46b-42ba-aca7-a4b4a05247e5",
+                "ordinal": 3
+              }
+            ],
+            "lineageTag": "8ccd1373-776f-4e6c-aa20-1d2628fcbf52"
+          }
+        ],
+        "isHidden": true,
+        "isPrivate": true,
+        "lineageTag": "4ed8f9c0-143f-4444-a756-eddefff80cc8",
+        "partitions": [
+          {
+            "name": "DateTableTemplate_14714a93-506a-4312-9933-b3bca5afd5a9",
+            "mode": "import",
+            "source": {
+              "expression": "Calendar(Date(2015,1,1), Date(2015,1,1))",
+              "type": "calculated"
+            }
+          }
+        ]
+      }
+    ]
+  }
+}
